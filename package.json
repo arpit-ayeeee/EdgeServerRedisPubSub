@@ -1,0 +1,22 @@
+{
+  "name": "redispubsubedgeserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "startx": "node serverx.js",
+    "starty": "node servery.js",
+    "startz": "node serverz.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.1",
+    "ioredis": "^5.4.1",
+    "redispubsubedgeserver": "file:"
+  }
+}
